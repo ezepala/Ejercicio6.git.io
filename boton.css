@@ -1,0 +1,16 @@
+button{
+    border:0;
+    padding: 5px;
+}
+
+.boton button:hover{
+    color: white;
+    background-color: green;
+}
+  
+
+.boton button::after{
+    content: "¡Hecho!";  
+ 
+     
+}
